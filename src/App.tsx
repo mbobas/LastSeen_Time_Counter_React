@@ -6,7 +6,6 @@ function App() {
   const [ inputInSeconds, setInputInSeconds ] = useState<number>()
   const [ lastSeenInSeconds, setLastSeenInSeconds ] = useState<number>()
   const [ message, setMessage ] = useState<string>()
-  const [now, setNow] = useState(Date.now() / 1000);
 
   const handleOnChange = (num: number) => {
     if (!isNaN(num) && num >=0 && num.toString().length < 11)
