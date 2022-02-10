@@ -1,16 +1,39 @@
 .App {
+  display: flex;
   height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(226, 226, 226);
+  background-color:rgb(226, 226, 226);
+}
+.wrapper-up  {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(218, 218, 218);
-  background-color: rgb(129, 129, 129);
-
+  height: 30%;
+  width:100%;
+  background-color:rgba(11, 116, 72, 0.479);
+  color: rgb(226, 226, 226);
+}
+.header {
+  width:100%;
+}
+.wrapper-middle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(161, 75, 49);
 }
 .input {
-  margin-top: 5vh;
-  align-self: center;
-  width: 30vw;
-  border: 1px solid yellowgreen;
+  position: relative;
+  top: -15px;
 }
+.message {
+  min-height: 25px;
+}
+

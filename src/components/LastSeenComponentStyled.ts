@@ -1,15 +1,21 @@
 import styled from 'styled-components'
 
-
 const LastSeenComponentStyled =  styled.div`
-    width: 40vw;
-    height: 40vh;
+    //color:rgb(161, 75, 49);
+    color:rgba(11, 116, 72, 0.479);
+    
+.info-wrapper {
+    padding: 1vw;   
+    width: 55vw;
     border-radius: 10px;
-    border: 1px solid yellowgreen;
+    border: 1px solid #555;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    //color:rgb(161, 75, 49);
+    color:rgba(11, 116, 72, 0.479);
+}
 
 `;
 
